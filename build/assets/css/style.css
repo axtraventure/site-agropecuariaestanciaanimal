@@ -1,0 +1,186 @@
+/* ==========================================================================
+   Agropecuária Estância Animal - Estilos Personalizados
+   Paleta: Primária: #247A38 | Secundária: #F4C430 | Fundo: #F9FAFB | Texto: #111827
+   ========================================================================== */
+
+:root {
+  --color-primary: #247A38;
+  --color-primary-dark: #1b5e2a;
+  --color-primary-light: #2e9646;
+  --color-secondary: #F4C430;
+  --color-secondary-dark: #dcae20;
+  --color-dark: #111827;
+  --color-dark-petrol: #1c362f;
+  --color-soft-teal: #88c0b8;
+  --color-bg: #F9FAFB;
+  --color-gray-card: #f4f6f6;
+  --color-gray-border: #e5e7eb;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-family: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  color: var(--color-dark);
+  background-color: var(--color-bg);
+}
+
+/* Offset para o header sticky ao navegar por âncoras */
+section, header {
+  scroll-margin-top: 90px;
+}
+
+/* Botões Pílula Arredondados */
+.btn-pill {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 9999px;
+  font-weight: 600;
+  transition: all 0.25s ease-in-out;
+  text-decoration: none;
+}
+
+.btn-pill:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 20px -5px rgba(36, 122, 56, 0.35);
+}
+
+.btn-primary {
+  background-color: var(--color-primary);
+  color: #ffffff;
+}
+
+.btn-primary:hover {
+  background-color: var(--color-primary-dark);
+}
+
+.btn-secondary {
+  background-color: var(--color-secondary);
+  color: #111827;
+}
+
+.btn-secondary:hover {
+  background-color: var(--color-secondary-dark);
+}
+
+/* Linha conectora do processo Como Funciona */
+.process-line {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  right: 10%;
+  height: 2px;
+  border-top: 2px dashed #88c0b8;
+  z-index: 1;
+  transform: translateY(-50%);
+}
+
+@media (max-width: 768px) {
+  .process-line {
+    display: none;
+  }
+}
+
+/* Efeito de sobreposição do Card Hero */
+.hero-overlap-box {
+  margin-top: -60px;
+  position: relative;
+  z-index: 30;
+}
+
+@media (min-width: 1024px) {
+  .hero-overlap-box {
+    margin-top: -80px;
+  }
+}
+
+/* Card Hover Effects */
+.service-card {
+  transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.service-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.08), 0 8px 10px -6px rgba(0, 0, 0, 0.04);
+}
+
+/* Botão Flutuante do WhatsApp */
+.whatsapp-float {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  width: 62px;
+  height: 62px;
+  background-color: #25D366;
+  color: #ffffff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 8px 24px rgba(37, 211, 102, 0.45);
+  z-index: 999;
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+
+.whatsapp-float:hover {
+  transform: scale(1.1);
+  box-shadow: 0 12px 28px rgba(37, 211, 102, 0.6);
+  color: #ffffff;
+}
+
+.whatsapp-float::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: #25D366;
+  opacity: 0.7;
+  z-index: -1;
+  animation: pulse-ring 2s infinite cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+
+@keyframes pulse-ring {
+  0% {
+    transform: scale(0.95);
+    opacity: 0.8;
+  }
+  50% {
+    transform: scale(1.35);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1.35);
+    opacity: 0;
+  }
+}
+
+/* Acordeão de FAQ */
+.faq-item {
+  border-bottom: 1px solid var(--color-gray-border);
+  transition: background-color 0.2s ease;
+}
+
+.faq-button {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.25rem 0;
+  text-align: left;
+  font-weight: 600;
+  cursor: pointer;
+  background: none;
+  border: none;
+  color: var(--color-dark);
+}
+
+.faq-button:hover {
+  color: var(--color-primary);
+}
+
+.faq-content {
+  overflow: hidden;
+  transition: all 0.3s ease-out;
+}
