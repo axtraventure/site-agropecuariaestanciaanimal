@@ -1,0 +1,123 @@
+empresa:
+  nome: "Agropecuária Estância Animal"
+  segmento: "Agropecuária, Pet Shop, Veterinária, Banho e Tosa, Ferragens e Jardinagem"
+  cidade: "Estância Velha"
+  estado: "RS"
+  pais: "BR"
+  telefone: "5551996456013"
+  whatsapp: "5551996456013"
+  endereco: "Avenida Walter Klein, 865, Bairro Bela Vista, Estância Velha - RS, CEP 93614-290"
+  horario: "Segunda a sexta-feira, das 08h às 12h e das 14h às 18h30. Sábado, das 08h às 16h30. Domingo fechado. Horários sujeitos à confirmação."
+  bairros_atendidos: "Bela Vista, Centro e demais bairros de Estância Velha, além de Novo Hamburgo, Ivoti, Portão e região"
+  google_maps_iframe: ""
+
+logo_path: "/assets/img/logo.png"
+
+redes_sociais:
+  instagram: "https://www.instagram.com/estanciaanimal/"
+  facebook: "Agropecuária Estância Animal"
+
+branding:
+  tom: "Profissional, moderno, acolhedor e confiável, com linguagem clara, humanizada e objetiva. Valorizar o atendimento próximo, a variedade de produtos e a praticidade de encontrar soluções para animais, casa e jardim em um único lugar."
+  paleta:
+    primaria: "#247A38"
+    secundaria: "#F4C430"
+    fundo: "#F9FAFB"
+    texto: "#111827"
+
+seo:
+  palavra_chave_principal: "Agropecuária em Estância Velha"
+  palavras_secundarias:
+    - "Agropecuária Estância Animal"
+    - "Pet Shop em Estância Velha"
+    - "Rações em Estância Velha"
+    - "Loja de Rações para Cães e Gatos"
+    - "Veterinário em Estância Velha"
+    - "Atendimento Veterinário em Estância Velha"
+    - "Banho e Tosa em Estância Velha"
+    - "Medicamentos Veterinários em Estância Velha"
+    - "Produtos Agropecuários em Estância Velha"
+    - "Ferragens em Estância Velha"
+    - "Ferramentas em Estância Velha"
+    - "Jardinagem em Estância Velha"
+    - "Mudas de Plantas em Estância Velha"
+    - "Pet Shop no Bairro Bela Vista"
+    - "Agropecuária perto de mim"
+    - "Produtos para Animais de Criação"
+  area_atuacao: "Estância Velha - RS, incluindo Bela Vista, Centro e demais bairros, além de Novo Hamburgo, Ivoti, Portão e municípios próximos"
+
+servicos:
+  - nome: "Pet Shop e Rações"
+    descricao: "Encontre rações para cães e gatos, petiscos, acessórios e produtos de higiene para cuidar da alimentação, do conforto e do bem-estar do seu pet. A Estância Animal oferece variedade de produtos e atendimento próximo em Estância Velha."
+    slug: "pet-shop-racoes"
+
+  - nome: "Atendimento Veterinário"
+    descricao: "Atendimento veterinário em Estância Velha para acompanhar a saúde e o bem-estar de cães e gatos. Consulte a disponibilidade e agende o atendimento pelo WhatsApp."
+    slug: "atendimento-veterinario"
+
+  - nome: "Banho e Tosa"
+    descricao: "Serviços de banho e tosa em Estância Velha, com cuidados voltados à higiene, ao conforto e ao bem-estar dos animais. Entre em contato para consultar horários e disponibilidade."
+    slug: "banho-e-tosa"
+
+  - nome: "Produtos Agropecuários"
+    descricao: "Produtos, alimentos e suprimentos agropecuários para alimentação, criação e manejo de diferentes animais. Soluções práticas para criadores e moradores de Estância Velha e região."
+    slug: "produtos-agropecuarios"
+
+  - nome: "Ferragens e Ferramentas"
+    descricao: "Variedade de ferragens, ferramentas e utilidades para manutenção, pequenos reparos e necessidades do dia a dia. Encontre soluções para sua casa e seus projetos em Estância Velha."
+    slug: "ferragens-ferramentas"
+
+  - nome: "Jardinagem e Mudas"
+    descricao: "Produtos de jardinagem, mudas e acessórios para cultivo de plantas, manutenção de jardins e cuidados com áreas verdes. Tudo para deixar seu jardim mais bonito e bem cuidado."
+    slug: "jardinagem-mudas"
+
+  - nome: "Medicamentos Veterinários"
+    descricao: "Produtos e medicamentos veterinários para auxiliar nos cuidados com a saúde animal. Consulte a disponibilidade dos itens e utilize medicamentos conforme orientação profissional."
+    slug: "medicamentos-veterinarios"
+
+diferenciais:
+  - "Variedade de produtos e serviços em um único endereço"
+  - "Pet shop, agropecuária, veterinária, banho e tosa, ferragens e jardinagem"
+  - "Atendimento próximo, atencioso e humanizado"
+  - "Praticidade para encontrar soluções para animais, casa e jardim"
+  - "Loja física localizada no bairro Bela Vista, em Estância Velha"
+  - "Atendimento para tutores de pets, criadores de animais e consumidores em geral"
+  - "Boa reputação e avaliações positivas no Google"
+  - "Variedade de rações, acessórios, produtos agropecuários e utilidades"
+  - "Facilidade de contato e consulta de produtos pelo WhatsApp"
+
+prova_social:
+  - "Nota 4,9 estrelas no Google, conforme consulta anterior"
+  - "167 avaliações no Google, conforme consulta anterior"
+  - "Clientes destacam o atendimento atencioso"
+  - "Avaliações positivas sobre a variedade de produtos"
+  - "Reconhecimento pela qualidade dos serviços"
+  - "Nota média e quantidade de avaliações devem ser atualizadas antes da publicação"
+
+cta_principal: "Falar no WhatsApp"
+
+dominio: ""
+
+tipo_site: "one-page"
+
+faq:
+  - pergunta: "Onde encontrar uma agropecuária em Estância Velha?"
+    resposta: "A Agropecuária Estância Animal está localizada na Avenida Walter Klein, 865, bairro Bela Vista, em Estância Velha - RS. A loja oferece rações, produtos agropecuários, pet shop, ferragens e jardinagem, além de atendimento veterinário e banho e tosa, reunindo produtos e serviços em um único lugar."
+
+  - pergunta: "Como escolher a melhor ração para cães e gatos?"
+    resposta: "A escolha da ração depende da idade, porte, fase de vida e necessidades nutricionais do animal. Rações premium e super premium apresentam diferenças na composição e digestibilidade. Na Estância Animal, você encontra opções de alimentação para cães e gatos e pode consultar os produtos disponíveis."
+
+  - pergunta: "Com que frequência devo levar meu cachorro para banho e tosa?"
+    resposta: "A frequência depende da raça, tipo de pelagem, rotina e condições de saúde do cachorro. Muitos cães podem tomar banho a cada duas a quatro semanas, mas o intervalo ideal varia conforme as necessidades individuais. A Estância Animal oferece banho e tosa em Estância Velha, mediante disponibilidade e agendamento."
+
+  - pergunta: "Quando devo levar meu cachorro ou gato ao veterinário?"
+    resposta: "Cães e gatos precisam de acompanhamento veterinário periódico para prevenção de doenças e avaliação da saúde. Alterações no comportamento, falta de apetite e sintomas persistentes também merecem atenção profissional. A Estância Animal disponibiliza atendimento veterinário em Estância Velha mediante agendamento."
+
+  - pergunta: "Como identificar pulgas e carrapatos em cães e gatos?"
+    resposta: "Coceira frequente, irritações na pele, vermelhidão e presença de parasitas na pelagem podem indicar pulgas ou carrapatos. A prevenção e o tratamento devem utilizar produtos adequados à espécie, idade e peso do animal, seguindo orientação veterinária."
+
+  - pergunta: "Quais produtos são necessários para cuidar de um jardim?"
+    resposta: "Os principais produtos incluem substratos, adubos, mudas, ferramentas de poda, regadores e materiais para manutenção de plantas. A escolha depende do tipo de planta, iluminação e condições do solo. A Estância Animal trabalha com produtos de jardinagem em Estância Velha."
+
+  - pergunta: "Quais são os principais cuidados com animais de criação?"
+    resposta: "Animais de criação precisam de alimentação adequada, água limpa, higiene, instalações apropriadas e acompanhamento sanitário. Rações específicas, comedouros, bebedouros e produtos agropecuários auxiliam no manejo e no bem-estar dos animais."
